@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QR KOD KOBİ</string>
+    <string name="scan">Tara</string>
+    <string name="dil_secim">Dil Seçiniz:</string>
+    <string name="kullanici_adi">Kullanıcı Adı:</string>
+    <string name="kayit">Kayıt Ol</string>
+    <string name="reset">Reset</string>
+    <string-array name="language">Dil Seçiniz
+        <item>Türkçe</item>
+        <item>English</item>
+        <item>русский</item>
+    </string-array>
+</resources>

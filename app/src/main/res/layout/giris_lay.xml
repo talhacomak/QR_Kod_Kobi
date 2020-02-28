@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="@string/dil_secim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:layout_marginLeft="20dp"
+            android:id="@+id/spin"
+            android:entries="@array/language"
+            android:spinnerMode="dropdown"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="@string/kullanici_adi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <requestFocus/>
+        </TextView>
+
+        <EditText
+            android:id="@+id/ad"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:ems="15"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/kayit"
+        android:text="@string/kayit"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
